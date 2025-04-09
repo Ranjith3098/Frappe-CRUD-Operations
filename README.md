@@ -9,7 +9,9 @@ doc = frappe.get_doc({
     "description": "Buy groceries",
     "date": "2025-04-10"
 })
+
 doc.insert()
+
 print(f"Created ToDo: {doc.name}")
 
 # ----------------------------
